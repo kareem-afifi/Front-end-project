@@ -1,0 +1,390 @@
+body {
+    min-height: 0vh;
+    padding-top: 8vh;
+  }
+
+.nav-item{
+    color: white;
+}
+.header-1{
+  background-color: #F7F9FE;
+  box-sizing: border-box;
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+.header-body{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+}
+.header-body h1{
+  color: #50658e;
+  font-size: 85px;
+  font-weight: 900;
+}
+.header-body span h3{
+  color: #50658e;
+  font-size: 28px;
+  margin-top: 14px;
+}
+.header-body span h2{
+  color: red;
+  font-size: 40px;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-main-p{
+  text-align: left;
+}
+
+.header-main-b2 {
+  text-decoration: none;
+}
+
+.stat{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+ .stat-num p:first-of-type{
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #7d92bb;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.stat-num p:last-of-type{
+  letter-spacing: 0.04em;
+  color: #465675;
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-style: normal;
+}
+
+.header-2{
+  padding: 95px;
+}
+.header-2 h5{
+  color: #3d4b69;;
+}
+
+.header-2 h2{
+  font-family: 'Oswald', sans-serif;
+  color: #50658e;
+}
+
+.header-2 ul{
+  list-style: none;
+  border: 1px solid #e7e8ff;
+  box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+  border-radius: 5px;
+  padding: 0px;
+}
+.header-2 ul li{
+  border-bottom: 1px solid #e7e8ff;
+  padding: 20px 30px;
+  font-weight: bold;
+  color: #465675;
+  font-size: 20px;
+}
+.header-2 ul a{
+  text-decoration: none;
+  color: #2a81ea;
+  border-bottom: 1px solid #e7e8ff;
+}
+.header-2 ul a li{
+  display: flex;
+  justify-content: space-between;
+  color: #2a81ea;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.spread {
+  background-color: #F7F9FE;
+  padding: 80px
+}
+
+.spread-text h4{
+  color: #3d4b69;
+  font-family: 'Oswald', sans-serif;
+  padding: 10px;
+}
+
+.spread-cards{
+  padding: 10px;
+}
+
+.spread-text h3 {
+  color: #3d4b69;
+}
+
+.spread-button {
+  margin: 80px auto 0; 
+  padding: 10px;
+}
+
+.Symptoms{
+  padding: 80px;
+}
+.symptoms-text {
+  padding:25px;
+}
+
+.symptoms-text h5{
+  color: #2a81ea;
+}
+
+.symptoms-text h3 {
+  color: #3d4b69;
+  font-family: 'Oswald', sans-serif;
+}
+
+.symptoms-boxs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 120px 0;
+  justify-content: space-between;
+  margin-bottom: 0;
+  box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+.symptoms-boxs span {
+  color: #2a81ea;
+  font-family: 'Oswald', sans-serif;
+}
+
+.box-warning span{
+  color: #2a81ea;
+  font-family: 'Oswald', sans-serif;
+}
+.box-warning{
+  padding-bottom: 20px;
+}
+
+.box-button{
+  text-align: center;
+  margin: 100px auto 0;
+}
+
+.symptoms button{
+  padding: 20px;
+}
+
+.prevention {
+  padding: 80px;
+  background-color: #F7F9FE;
+}
+
+.prevention-text h3{
+  color: #2a81ea;
+  padding: 5px;
+}
+
+.prevention-text h2 {
+  color: #3d4b69;
+  font-family: 'Oswald', sans-serif;
+}
+
+.prevention-text span{
+  font-weight: bold;
+  padding: 6px;
+}
+
+.prevention-buttons {
+  text-align: center;
+  margin: 100px auto 0;
+}
+
+.steps{
+  padding: 80px;
+}
+
+.steps h2{
+  color: #3d4b69;
+}
+
+.steps span {
+  color: #3d4b69;
+  font-weight: bold;
+}
+
+.steps .container{
+  background-color: #e7e8ff;
+}
+
+.steps-2 {
+  padding: 80px;
+}
+
+.be-carefull{
+  padding: 80px;
+  background-color: #2766bb;
+}
+
+.be-carefull h4 {
+  font-family: 'Oswald', sans-serif;
+  color: #73e3ff;
+}
+
+.be-carefull h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.be-carefull-text {
+  color: #fff;
+}
+
+.be-carefull-text span {
+  font-weight: bold;
+}
+
+.be-carefull-list{
+  background-color: #1b47a1;
+  padding: 40px;
+  color: #fff;
+}
+.be-carefull-list h6{
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.be-carefull-list p{
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+.icon-care{
+  margin-right: 10px;
+}
+
+.protect-sec{
+  padding: 100px 0;
+  background-color: #f7f9fe;
+}
+.protect-box-left{
+  margin-bottom: 20px;
+  position: relative;
+}
+.protect-box-left div.box-text{
+  margin: 0 20px 0 0;
+  color: #2a81ea;
+  font-weight: bold;
+  font-size: 14px;
+}
+.protect-box-left .box-icon{
+  color: #f86168;
+  position: absolute;
+  font-size: 21px;
+  top: -1%;
+  left: 72%;
+  z-index: 1;
+  background-color: white;
+  border-radius: 50%;
+}
+.protect-box-left .box-img{
+  width: 80px;
+}
+.protect-box-left .box-img img{
+  border: 2px solid #2a81ea;
+  background-color: #fff;
+}
+.protect-box-right{
+  margin-bottom: 20px;
+  position: relative;
+}
+.protect-box-right .box-text{
+  margin: 0 0 0 20px;
+  color: #2a81ea;
+  font-weight: bold;
+  font-size: 14px;
+}
+.protect-box-right .box-icon{
+  color: #3dca93;
+  position: absolute;
+  font-size: 21px;
+  top: -1%;
+  right: 72%;
+  z-index: 1;
+  background-color: white;
+  border-radius: 50%;
+}
+.protect-box-right .box-img{
+  width: 80px;
+}
+.protect-box-right .box-img img{
+  border: 2px solid #2a81ea;
+  background-color: #fff;
+}
+
+.faq-box{
+  padding: 80px;
+  background-color: #e7e8ff;
+}
+.li-acc .list-group a{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  border: 2px solid #e7e8ff !important;
+}
+
+.update{
+  padding: 80px;
+}
+
+.update h4{
+  color: #2a81ea;
+  font-family: 'Oswald', sans-serif;
+}
+
+.update h2{
+  font-family: 'Oswald', sans-serif;
+  color: #50658e;
+}
+.footer{
+  padding: 80px;
+  background-color: #151c2e;
+  background-image: url(img/shape-a.png);
+}
+
+.footer-text{
+  color: #b2bfe0;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #b2bfe0;
+}
+
+.footer span{
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+
+.footer-1{
+  padding-bottom: 50px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer-2 {
+  color: #b2bfe0;
+  padding: 40px;
+}
+
